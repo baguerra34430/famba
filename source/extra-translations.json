@@ -1,0 +1,58 @@
+{
+  "en": {
+    "org": "Franco-Arabic Maghreb Business Association of SMEs",
+    "growth": "Growth", "trusted": "Trust", "menu": "Menu", "skip": "Skip to content",
+    "rn1": "France", "rd1": "Expertise, innovation and European networks.",
+    "rn2": "Maghreb", "rd2": "Connections across North Africa and the Mediterranean.",
+    "rn3": "China", "rd3": "Industry, technology, manufacturing and investment.",
+    "rn4": "Gulf", "rd4": "Capital, logistics and global connectivity.",
+    "photoNote": "Illustrative photographs of our markets and areas of work.",
+    "contactTitle": "Let’s discuss your project", "name": "Your name", "email": "Email address", "company": "Company / organisation (optional)", "message": "Your message", "send": "Send enquiry", "formNote": "Your enquiry is addressed to mickael.viudez@gmail.com. You can also email us directly.",
+    "thanks": "Thank you for your enquiry", "thanksText": "For any follow-up, please contact mickael.viudez@gmail.com.", "back": "Back to FAMBA",
+    "desc": "FAMBA-SMEs connects businesses across France, the Maghreb, China and the Gulf through trade, investment and partnerships.",
+    "altMeeting": "Colleagues discussing a business project", "altIndustry": "Industrial construction site", "altConference": "Conference venue", "altFrance": "Paris and the Eiffel Tower", "altMaghreb": "Architecture in Morocco", "altChina": "The Great Wall of China", "altGulf": "Dubai skyline",
+    "footer": "France · Maghreb · China · Gulf"
+  },
+  "fr": {
+    "org": "Association franco-arabe maghrébine des petites et moyennes entreprises",
+    "growth": "Croissance", "trusted": "Confiance", "menu": "Menu", "skip": "Aller au contenu",
+    "rn1": "France", "rd1": "Expertise, innovation et réseaux européens.",
+    "rn2": "Maghreb", "rd2": "Des liens à travers l’Afrique du Nord et la Méditerranée.",
+    "rn3": "Chine", "rd3": "Industrie, technologie, production et investissement.",
+    "rn4": "Golfe", "rd4": "Capitaux, logistique et connexions internationales.",
+    "photoNote": "Photographies illustrant nos marchés et nos domaines d’activité.",
+    "contactTitle": "Parlons de votre projet", "name": "Votre nom", "email": "Adresse e-mail", "company": "Entreprise / organisation (facultatif)", "message": "Votre message", "send": "Envoyer la demande", "formNote": "Votre demande est adressée à mickael.viudez@gmail.com. Vous pouvez aussi nous écrire directement.",
+    "thanks": "Merci pour votre demande", "thanksText": "Pour tout suivi, contactez mickael.viudez@gmail.com.", "back": "Retour à FAMBA",
+    "desc": "FAMBA-SMEs relie les entreprises de France, du Maghreb, de Chine et du Golfe grâce au commerce, à l’investissement et aux partenariats.",
+    "altMeeting": "Équipe discutant d’un projet professionnel", "altIndustry": "Chantier industriel", "altConference": "Lieu de conférence", "altFrance": "Paris et la tour Eiffel", "altMaghreb": "Architecture au Maroc", "altChina": "La Grande Muraille de Chine", "altGulf": "Vue de Dubaï",
+    "footer": "France · Maghreb · Chine · Golfe"
+  },
+  "zh": {
+    "org": "法国—阿拉伯马格里布中小企业商业协会",
+    "growth": "增长", "trusted": "信任", "menu": "菜单", "skip": "跳转至正文",
+    "rn1": "法国", "rd1": "专业经验、创新能力与欧洲商业网络。",
+    "rn2": "马格里布", "rd2": "连接北非与地中海地区的合作伙伴。",
+    "rn3": "中国", "rd3": "工业、科技、制造与投资。",
+    "rn4": "海湾地区", "rd4": "资本、物流与全球商业网络。",
+    "photoNote": "图片用于展示相关市场与业务领域。",
+    "contactTitle": "与我们探讨您的项目", "name": "您的姓名", "email": "电子邮箱", "company": "公司或机构（选填）", "message": "您的留言", "send": "发送咨询", "formNote": "咨询将提交至 mickael.viudez@gmail.com。您也可以直接发送邮件联系我们。",
+    "thanks": "感谢您的咨询", "thanksText": "如需跟进，请联系 mickael.viudez@gmail.com。", "back": "返回 FAMBA 首页",
+    "desc": "FAMBA-SMEs 通过贸易、投资与合作，连接法国、马格里布、中国和海湾地区的企业。",
+    "altMeeting": "团队讨论商业项目", "altIndustry": "工业建设现场", "altConference": "会议场地", "altFrance": "巴黎与埃菲尔铁塔", "altMaghreb": "摩洛哥建筑", "altChina": "中国长城", "altGulf": "迪拜城市天际线",
+    "footer": "法国 · 马格里布 · 中国 · 海湾地区"
+  },
+  "ar": {
+    "org": "جمعية الأعمال الفرنسية العربية المغاربية للمؤسسات الصغيرة والمتوسطة",
+    "growth": "النمو", "trusted": "الثقة", "menu": "القائمة", "skip": "انتقل إلى المحتوى",
+    "rn1": "فرنسا", "rd1": "الخبرة والابتكار وشبكات الأعمال الأوروبية.",
+    "rn2": "المغرب العربي", "rd2": "روابط تجارية عبر شمال أفريقيا والبحر المتوسط.",
+    "rn3": "الصين", "rd3": "الصناعة والتكنولوجيا والتصنيع والاستثمار.",
+    "rn4": "الخليج", "rd4": "رأس المال والخدمات اللوجستية والتواصل العالمي.",
+    "photoNote": "صور توضيحية للأسواق ومجالات العمل التي نركز عليها.",
+    "contactTitle": "لنتحدث عن مشروعكم", "name": "الاسم", "email": "البريد الإلكتروني", "company": "الشركة أو المؤسسة (اختياري)", "message": "رسالتكم", "send": "إرسال الاستفسار", "formNote": "يوجّه استفساركم إلى mickael.viudez@gmail.com. يمكنكم أيضاً مراسلتنا مباشرة عبر البريد الإلكتروني.",
+    "thanks": "شكراً لاستفساركم", "thanksText": "للمتابعة، يرجى التواصل عبر mickael.viudez@gmail.com.", "back": "العودة إلى FAMBA",
+    "desc": "تربط FAMBA-SMEs الشركات في فرنسا والمغرب العربي والصين والخليج من خلال التجارة والاستثمار والشراكات.",
+    "altMeeting": "فريق يناقش مشروعاً تجارياً", "altIndustry": "موقع إنشاءات صناعية", "altConference": "قاعة مؤتمرات", "altFrance": "باريس وبرج إيفل", "altMaghreb": "عمارة في المغرب", "altChina": "سور الصين العظيم", "altGulf": "أفق مدينة دبي",
+    "footer": "فرنسا · المغرب العربي · الصين · الخليج"
+  }
+}
