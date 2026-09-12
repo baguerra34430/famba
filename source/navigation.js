@@ -1,24 +1,19 @@
+const header = document.querySelector('.site-header');
 const toggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('#main-nav');
-toggle?.addEventListener('click', () => {
-  const open = toggle.getAttribute('aria-expanded') !== 'true';
-  toggle.setAttribute('aria-expanded', String(open));
-  nav.classList.toggle('open', open);
+const navigation = document.querySelector('#main-nav');
+if (header && toggle && navigation) {
+  header.classList.add('menu-ready');
+  const close = () => { toggle.setAttribute('aria-expanded', 'false'); header.classList.remove('menu-open'); };
+  toggle.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') !== 'true';
+    toggle.setAttribute('aria-expanded', String(expanded));
+    header.classList.toggle('menu-open', expanded);
+  });
+  navigation.addEventListener('click', event => { if (event.target.closest('a')) close(); });
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { close(); toggle.focus(); } });
+  document.addEventListener('click', event => { if (!header.contains(event.target)) close(); });
+  window.matchMedia('(min-width: 1081px)').addEventListener('change', close);
+}
+document.querySelectorAll('.languages a').forEach(link => {
+  link.addEventListener('click', () => { link.hash = window.location.hash; });
 });
-nav?.addEventListener('click', event => {
-  if (event.target.closest('a')) {
-    toggle.setAttribute('aria-expanded', 'false');
-    nav.classList.remove('open');
-  }
-});
-document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') {
-    toggle.setAttribute('aria-expanded', 'false');
-    nav.classList.remove('open');
-    toggle.focus();
-  }
-});
-// Language links retain the section when moving to another native language page.
-document.querySelectorAll('.lg').forEach(link => link.addEventListener('click', () => {
-  if (location.hash) link.hash = location.hash;
-}));

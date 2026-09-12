@@ -10,15 +10,24 @@ Vercel settings: framework Other, build `npm run build`, output `dist`, reposito
 Connect this repository to the existing `famba` project, not a new project.
 Project ID supplied by owner: `prj_0lAk54YEWGBpewUdWh5MzAo2lPXY`.
 
-`source/original.html` is the public production page retrieved during this task.
-`build.mjs` preserves its content while replacing its inline drawings and enhancing layout,
-navigation, accessibility, metadata and language completeness. Native pages render without JavaScript.
-Edit translations in `source/extra-translations.json`; the original translation content is in
-`source/original.html`. The build overlays the extra translations on the original ones.
+`build.mjs` generates native language pages from `source/content.json` and
+`source/brand-translations.json`. Every displayed translation is required at build time.
+Edit the design in `source/site.css` and the small mobile menu in `source/navigation.js`.
+The pages, language links, content and enquiry form work without JavaScript. JavaScript
+adds a collapsible mobile menu and retains the current section when switching languages.
+`source/original.html`, `source/extra-translations.json` and `source/refinements.css` are
+retained as historical references; the redesigned site does not load them.
 
-The supplied FAMBA logo is stored unchanged in `assets/famba-logo.png`. All photos are
-stored locally so visitors do not depend on external image hosts. Photos are illustrative,
-not evidence of FAMBA events or partnerships. See `ASSETS.md` for original image URLs.
+The redesigned emblem uses the supplied logo's globe and growth motif in navy, teal and
+muted gold. It is paired with a consistent text wordmark in the header, footer and confirmation
+pages. The original is retained in `assets/famba-logo.png` for reference and is not deployed.
+All images are local. The custom hero illustration depicts an imagined Mediterranean port.
+The photographs illustrate markets and business subjects; they do not document FAMBA events
+or members. See `ASSETS.md` for provenance.
+
+The build clears and recreates `dist`; do not edit generated files there. The initial page
+loads the compact WebP emblem and hero. Supporting photographs load lazily. There are no
+runtime framework packages or externally hosted fonts.
 
 ## Contact
 
